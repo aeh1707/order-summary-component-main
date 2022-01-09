@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <!-- styles-->
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,19 +20,30 @@
   </style>
 </head>
 <body>
+  <article class="card">
+    <header>
+      <img src="images/illustration-hero.svg" alt="">
+      <h1>Order Summary</h1>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
+    </header>
+    
+    <div class="plan">
+      <img src="images/icon-music.svg" alt="">
+      <p>
+        <span>Annual Plan</span>
+        <span>$59.99/year</span>
+      </p>
+      <a href="#">Change</a>
+    </div>
 
-  Order Summary
+    <div class="payment">
+      <button>Proceed to Payment</button>
+      <a href="#">Cancel Order</a>
+    </div>
+  </article>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
